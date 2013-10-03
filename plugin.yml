@@ -1,0 +1,24 @@
+name: "PlayerRules"
+version: "1.0.2"
+main: me.exel80.playerrules.main
+description: "Rules are rules!"
+permissions:
+  pr.bypass.*:
+      description: Bypass all.
+      children:
+        pr.bypass.drop: true
+        pr.bypass.place: true
+        pr.bypass.break: true
+        pr.bypass.use: true
+  pr.bypass.drop:
+      description: Bypass drop blacklist.
+      default: op
+  pr.bypass.place:
+      description: Bypass place blacklist.
+      default: op
+  pr.bypass.break:
+      description: Bypass break blacklist.
+      default: op
+  pr.bypass.use:
+      description: Bypass use blacklist.
+      default: op
