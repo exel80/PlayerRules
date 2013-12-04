@@ -20,6 +20,7 @@ Features
 * Can disallow single or multi, items or blocks drop in.
 * Can disallow single or multi, items using.
 * Can blacklist all blocks and items with one line -> **- all**
+* Warning system.
 * Permissions.
 
 
